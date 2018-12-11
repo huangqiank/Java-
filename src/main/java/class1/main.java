@@ -6,6 +6,5 @@ public class main {
         a.shootBall2();
         System.out.println(a.getName());
         a.setName("你的");
-        System.out.println(a.getName());
     }
 }

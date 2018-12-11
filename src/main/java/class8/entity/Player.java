@@ -1,4 +1,4 @@
-package class1;
+package class8.entity;
 
 public class Player {
     private String name;
