@@ -1,4 +1,4 @@
-package xiancheng;
+package xiancheng.class1;
 
 public class Actress implements Runnable {
     @Override
