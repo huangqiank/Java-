@@ -21,6 +21,7 @@ public class Player {
     public void shootBall() {
         System.out.println(this.name + "2分");
     }
+
     //静态方法不可以调用name这种动态变量
     public static void showVersion() {
         System.out.println(version);

@@ -1,0 +1,1 @@
+@data 使用，自动生成get，set函数。JSON.toJSONString 自动转译出jason字符串
