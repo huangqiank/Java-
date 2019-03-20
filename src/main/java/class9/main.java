@@ -31,8 +31,9 @@ public class main {
 
         Calendar calendar1 = Calendar.getInstance();
         Calendar calendar2 = Calendar.getInstance();
-        calendar1.set(2017, 10, 27);
+        calendar1.set(2017, 10, 27,15,10,11);
         calendar2.set(2018, 5, 20);
+        System.out.println(calendar1.get(Calendar.HOUR_OF_DAY));
 //set的地方月份从0开始算得,0是1月
         if (calendar1.before(calendar2)) {
             System.out.println(calendar1.getTime() + "在" + calendar2.getTime().toString() + "前面");

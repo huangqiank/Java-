@@ -18,9 +18,13 @@ public class main {
         playerList.add(d);
         List<String> players = playerList.stream().filter(t -> t.getType().equals("1"))
                 .sorted(Comparator.comparing(Player::getScore).reversed())
-                .map(Player::getName).collect(Collectors.toList());
+                .map(Player->f(Player)).collect(Collectors.toList());
         players.forEach((k) -> System.out.println(k));
     }
-
-
+    public static String f(Player t){
+        if (t.getName().equals("a")){
+            return "a";
+        }
+        return "a";
+    }
 }
